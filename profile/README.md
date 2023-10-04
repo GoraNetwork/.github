@@ -7,8 +7,8 @@
 | Devs start here 👉  | [Developers](#👋-hey-developers)    |
 | Node Runners starter 👉  | [Node Runners](#👋-hey-node-runner-lets-start-here)    |
 | Gora AlgoKit Template  | [AlgoKit Template](https://github.com/GoraNetwork/algokit_default_template)     |
-| Gora example boilerplate consumer App  | [Gora Consumer Example](https://github.com/GoraNetwork/oracle_consumer_app)     |
-| Gora example boilerplate feed  | [Gora Feed Example](https://github.com/GoraNetwork/oracle_consumer_app)     |
+| Gora example boilerplate consumer App  | [Consumer Example](https://github.com/GoraNetwork/oracle_consumer_app)     |
+| Gora example boilerplate feed  | [Feed Example](https://github.com/GoraNetwork/oracle_consumer_app)     |
 | Gora off-chain example  | [Gora Off-Chain Example](https://github.com/GoraNetwork/off-chain-starter)     |
 | Learn Gora Blog |[Gora Blog](https://www.gora.io/blog-post-categories/blog)      |
 | Read Gora Articles |[Gora Articles](https://goranetwork.medium.com/)      |
