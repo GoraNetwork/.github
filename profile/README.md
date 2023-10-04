@@ -44,13 +44,13 @@ Download Gora CLI tool. To do it with wget run: https://download.goracle.io/late
 Make the downloaded binary executable by running chmod u+x ./gora
 
 2) Initialize your installation
-Initialization of a new Gora node involves the following key steps:
-Creating your Gora participation account on Algorand
-Initializing it by linking it to your main Algorand account and supplying it with tokens and Algo.
-Creating a Gora config file ~/.goracle with info on these accounts as well as connection details for the Algorand node that your Gora node will use.
+    Initialization of a new Gora node involves the following key steps:
+    Creating your Gora participation account on Algorand
+    Initializing it by linking it to your main Algorand account and supplying it with tokens and Algo.
+    Creating a Gora config file ~/.goracle with info on these accounts as well as connection details for the Algorand node that your Gora node will use.
 
-To start the process, run ./gora init. You will be guided through the steps with text prompts and messages. You can abort the process at any time by pressing Ctrl-C. To start over, rename or delete the produced config file ~/.gora.
-Make sure that your participation account balance is at least 10 ALGOs. It should have received them during initialization via Gora web app. If it has not, simply send 10 ALGOs to the participation account address using your Algorand wallet.
+    To start the process, run ./gora init. You will be guided through the steps with text prompts and messages. You can abort the process at any time by pressing Ctrl-C. To start over, rename or delete the produced config file ~/.gora.
+    Make sure that your participation account balance is at least 10 ALGOs. It should have received them during initialization via Gora web app. If it has not, simply send 10 ALGOs to the participation account address using your Algorand wallet.
 
 3) Run Node runner
    - Run Node Runner on AWS:
@@ -101,7 +101,7 @@ Make sure that your participation account balance is at least 10 ALGOs. It shoul
     To make it switch into background upon startup, add --background to the command. To quickly check instance status, use gora docker-status. To inspect instance's logs, use docker log command, e.g.: docker logs -fn 100 gora-nr.
 
 4) Stop a Node Runner instance:
-To stop an AWS-deployed Node Runner instance, run: ./gora aws-stop. For stopping a locally run instance, hit Ctrl-C if it is running in the foreground, or execute ./gora docker-stop to stop a background instance.
+    To stop an AWS-deployed Node Runner instance, run: ./gora aws-stop. For stopping a locally run instance, hit Ctrl-C if it is running in the foreground, or execute ./gora docker-stop to stop a background instance.
 
 #### Updating Gora Software
 Gora CLI tool is updated with gora update command. It checks whether there is a more recent version than the one being run, and if so, offers to upgrade it by downloading and replacing gora binary. Current binary will be backed up.
