@@ -19,7 +19,7 @@
 
 ### 👋 Hey developers, let's start here
 
-#### Integrating Data Feeds
+#### 👨🏽‍💻 Work with Gora Data Feeds
 There are three categories of data feeds in the GoraNetwork ecosystem: price beacon, aggregated, and custom.
 - Price Beacon:
   
@@ -33,11 +33,16 @@ There are three categories of data feeds in the GoraNetwork ecosystem: price bea
 
 🚀[Continue reading on Data feeds...](./INTEGRATEDATAFEEDS.md)
 
+#### 👩🏽‍💻 Validator Setup
+GoraNetwork has it's own validator network and registery process which is done through [Gora Validators Portal](https://sandbox-app.goracle.io/validators). This guide provides a step-by-step process to register your validator node via the GoraNetwork Validator Portal. Registering your validator in this manner enables the community to delegation to your node.
+
+🚀[Continue reading on validators...](./VALIDATOR.md)
+
 ### 👋 Hey Node Runner, let's start here
 
 Note: This guide contains instructions for Algorand Node Running. Arbitrum and Polygon nodes are currently in Alpha. The following steps will remain the same by upcoming network additions, with criteria of using the relevant RPC or Node endpoint.
 
-#### Introduction
+#### Introduction to GNR
 Gora Node Runner (GNR) is the sofware implementing Gora network node. It performs the following key tasks:
 Monitoring of Algorand blockchain for new oracle requests
 Fulfilling of oracle requests by querying data sources and aggregating results
