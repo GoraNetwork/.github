@@ -19,6 +19,17 @@
 
 ### 👋 Hey developers, let's start here
 
+#### Integrating Data Feeds
+There are three categories of data feeds in the GoraNetwork ecosystem: price beacon, aggregated, and custom.
+- Price Beacon:
+  
+    GoraNetwork's Price beacons are similar to the Oracle industry standard of providing data feeds available on a regular interval (e.g. a 1% deviation), in a publicly accessible contract. The current list of crypto spot prices can viewed on the Price Beacon page. While the price beacons are limited to high volume, popular assets, consumers can make request to any asset or data type by calling aggregated or custome endpoints.
+- Aggregated Data:
+  
+    Aggregated data is obtained from institutional data providers who generally  aggregate high quality sources, and as such, already have significant data pre-processing for accuracy and reliability. GoraNetwork aggregates this aggregated data, ensuring the most accurate and availalbe data of any oracle. 
+- Custom Data:
+  
+    Custom data feeds allow consumers to obtain data from their own endpoints. Calling custom data endpoints is very similar to calling aggregated data endponts. The process is described further in the following sections.
 
 ### 👋 Hey Node Runner, let's start here
 
@@ -30,7 +41,7 @@ Monitoring of Algorand blockchain for new oracle requests
 Fulfilling of oracle requests by querying data sources and aggregating results
 Submission of results for certification to Gora smart contracts
 The GNR is distributed as a Linux-based Docker image. It is designed to run on a docker-enabled customer host or in AWS cloud. Instalation and maintenance of GNR is conducted with Gora CLI tool - a self-contained command-line executable. A live Algorand node is required by GNR to interact with the blockchain. A Gora node operator must have access to a publically available Algorand node or run one of their own.
-Any problems encountered using Gora software as described in this manual, or errors in the manual itself, should be reported here: https://validators.goracle.io/bugreport
+Any problems encountered using Gora software as described in this manual, or errors in the manual itself, should be reported here: https://validators.gora.io/bugreport
 #### Prerequisites
 This manual is written for someone able to work with command-line (CLI) tools and Linux OS in general. Advanced customization may require editing of text files in JSON format. If you are not comfortable with the above, it is recommended that you enlist professional help or get up to speed using resources widely available online.
 For the Node Runner, 64-bit x86 hardware is currently officially supported. Mac, ARM, older 32-bit or any other non-amd86 hardware platforms are not. Most of these have no inherent incompatibilities with Gora software and will likely be supported in future releases. For the CLI tool, Mac platform is supported as well as Linux.
@@ -40,14 +51,14 @@ You should be able to run Gora software as a normal user with no additional setu
 #### Running the node
 1) Install the required software
     Install Docker engine if you want to run your node locally, or AWS CLI if you prefer to run it on AWS. When using docker, ensure that you are able to use docker as a normal, non-root user; usually this requires adding yourself to the docker group, then logging out and back in.
-    Download Gora CLI tool. To do it with wget run: https://download.goracle.io/latest-release/linux/goracle -O gora
+    Download Gora CLI tool. To do it with wget run: https://download.gora.io/latest-release/linux/gora -O gora
     Make the downloaded binary executable by running chmod u+x ./gora
 
 2) Initialize your installation
     Initialization of a new Gora node involves the following key steps:
     Creating your Gora participation account on Algorand
     Initializing it by linking it to your main Algorand account and supplying it with tokens and Algo.
-    Creating a Gora config file ~/.goracle with info on these accounts as well as connection details for the Algorand node that your Gora node will use.
+    Creating a Gora config file ~/.gora with info on these accounts as well as connection details for the Algorand node that your Gora node will use.
 
     To start the process, run ./gora init. You will be guided through the steps with text prompts and messages. You can abort the process at any time by pressing Ctrl-C. To start over, rename or delete the produced config file ~/.gora.
     Make sure that your participation account balance is at least 10 ALGOs. It should have received them during initialization via Gora web app. If it has not, simply send 10 ALGOs to the participation account address using your Algorand wallet.
@@ -55,7 +66,7 @@ You should be able to run Gora software as a normal user with no additional setu
 3) Run Node runner
    - Run Node Runner on AWS:
     AWS functionality is currently experimental, new users are encouraged to skip to the section 3b and run their node locally. If you are willing to try running on AWS, run export GORA_EXPERIMENTAL_MODE=1 and proceed with caution.
-    Download and install AWS CLI. To start your node, run ./goracle aws-start. If it is the first time, several AWS configuration items will be set up for you, producing an output like:
+    Download and install AWS CLI. To start your node, run ./gora aws-start. If it is the first time, several AWS configuration items will be set up for you, producing an output like:
 
     ```
     Creating security group "gora-nr-sg"
@@ -85,7 +96,7 @@ You should be able to run Gora software as a normal user with no additional setu
     2023-03-30T14:20:45.733Z INFO  Built on: "Thu, 30 Mar 2023 14:20:31 GMT"
     2023-03-30T14:20:45.909Z INFO  Revision: "2c8f95ff6de45ef9218739fbc590fcb8bb4d7105"
     2023-03-30T14:20:45.909Z INFO  Smart contracts revision: "6e83988464446e288f5cb750581f061c29eb49c3"
-    2023-03-30T14:20:45.909Z INFO  Docker image: "docker.example.com/goracle-nr:latest-release"
+    2023-03-30T14:20:45.909Z INFO  Docker image: "docker.example.com/gora-nr:latest-release"
     2023-03-30T14:20:45.909Z INFO  Docker image hash: "e16ed958aa5ec11c772951e899a98a2cab95de07b9997ddd53304fcf6b9dd042"
     2023-03-30T14:20:46.042Z INFO  Gora network ID: 10000
     2023-03-30T14:20:46.144Z INFO  Blockchain server: http://algorand.example.com:4001/
