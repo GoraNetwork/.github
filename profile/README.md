@@ -31,7 +31,7 @@ There are three categories of data feeds in the GoraNetwork ecosystem: price bea
   
     Custom data feeds allow consumers to obtain data from their own endpoints. Calling custom data endpoints is very similar to calling aggregated data endponts. The process is described further in the following sections.
 
-🚀[Continue reading on Data feeds...](./INTEGRATEDDATAFEEDS.md)
+🚀[Continue reading on Data feeds...](./INTEGRATEDATAFEEDS.md)
 
 ### 👋 Hey Node Runner, let's start here
 
