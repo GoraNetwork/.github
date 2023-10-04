@@ -8,7 +8,8 @@
 | Devs start here 👉  | [Start here](https://www.gora.io/)    |
 | Technical docs |[Gora Technical Docs](https://docs.goracle.io/technical-documentation/)      |
 | Learn more about Gora |[Gora resources](https://www.gora.io/blog-post-categories/blog)      |
-| Gora Boilerplate     | [Example Gora codebase](https://www.gora.io/)     |
+| Gora example boilerplate consumer App  | [Gora Consumer Example](https://github.com/GoraNetwork/oracle_consumer_app)     |
+| Gora example boilerplate feed  | [Gora Feed Example](https://github.com/GoraNetwork/oracle_consumer_app)     |
 
 
 
