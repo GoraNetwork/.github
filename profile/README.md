@@ -17,6 +17,19 @@
 
 ### 👋 Hey developers, let's start here
 
+#### Quick resources for hackathons:
+
+- [TESTNET main Gora contract](https://testnet.algoexplorer.io/application/411909294)
+
+- [TESTNET Gora token asset](https://testnet.algoexplorer.io/asset/411909023)
+
+- [TESTNET voting App 1](https://testnet.algoexplorer.io/application/411909861)
+
+- [TESTNET voting App 2](https://testnet.algoexplorer.io/application/411909994)
+
+- [TESTNET Voting App 3](https://testnet.algoexplorer.io/application/411910093)
+
+
 #### 👨🏽‍💻 Work with Gora Data Feeds
 There are three categories of data feeds in the GoraNetwork ecosystem: price beacon, aggregated, and custom.
 - Price Beacon:
