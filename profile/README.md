@@ -31,6 +31,8 @@ There are three categories of data feeds in the GoraNetwork ecosystem: price bea
   
     Custom data feeds allow consumers to obtain data from their own endpoints. Calling custom data endpoints is very similar to calling aggregated data endponts. The process is described further in the following sections.
 
+🚀[Continue reading on Data feeds...](./INTEGRATEDDATAFEEDS.md)
+
 ### 👋 Hey Node Runner, let's start here
 
 Note: This guide contains instructions for Algorand Node Running. Arbitrum and Polygon nodes are currently in Alpha. The following steps will remain the same by upcoming network additions, with criteria of using the relevant RPC or Node endpoint.
@@ -43,7 +45,7 @@ Submission of results for certification to Gora smart contracts
 The GNR is distributed as a Linux-based Docker image. It is designed to run on a docker-enabled customer host or in AWS cloud. Instalation and maintenance of GNR is conducted with Gora CLI tool - a self-contained command-line executable. A live Algorand node is required by GNR to interact with the blockchain. A Gora node operator must have access to a publically available Algorand node or run one of their own.
 Any problems encountered using Gora software as described in this manual, or errors in the manual itself, should be reported here: https://validators.gora.io/bugreport
 
-[Continue reading on GNR...](./NODERUNNER.md)
+🚀[Continue reading on GNR...](./NODERUNNER.md)
 
 
 
