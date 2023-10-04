@@ -29,12 +29,12 @@ There are three categories of data feeds in the GoraNetwork ecosystem: price bea
   
     Custom data feeds allow consumers to obtain data from their own endpoints. Calling custom data endpoints is very similar to calling aggregated data endponts. The process is described further in the following sections.
 
-🚀[Continue reading on Data feeds...](./INTEGRATEDATAFEEDS.md)
+🚀[Continue reading on Data feeds...](../profile/INTEGRATEDATAFEEDS.md)
 
 #### 👩🏽‍💻 Validator Setup
 GoraNetwork has it's own validator network and registery process which is done through [Gora Validators Portal](https://sandbox-app.goracle.io/validators). This guide provides a step-by-step process to register your validator node via the GoraNetwork Validator Portal. Registering your validator in this manner enables the community to delegation to your node.
 
-🚀[Continue reading on validators...](./VALIDATOR.md)
+🚀[Continue reading on validators...](../profile/VALIDATOR.md)
 
 ### 👋 Hey Node Runner, let's start here
 
@@ -48,7 +48,7 @@ Submission of results for certification to Gora smart contracts
 The GNR is distributed as a Linux-based Docker image. It is designed to run on a docker-enabled customer host or in AWS cloud. Instalation and maintenance of GNR is conducted with Gora CLI tool - a self-contained command-line executable. A live Algorand node is required by GNR to interact with the blockchain. A Gora node operator must have access to a publically available Algorand node or run one of their own.
 Any problems encountered using Gora software as described in this manual, or errors in the manual itself, should be reported here: https://validators.gora.io/bugreport
 
-🚀[Continue reading on GNR...](./NODERUNNER.md)
+🚀[Continue reading on GNR...](../profile/NODERUNNER.md)
 
 
 
