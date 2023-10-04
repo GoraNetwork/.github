@@ -1,5 +1,7 @@
-### Node Runner Guide
 
+<img src="https://avatars.githubusercontent.com/u/96357480?s=400&u=f54a2fab0e5faaf6bccf57b993e0a28ca2102001&v=4" width="100">  |  GoraNetwork|
+| -------- | ------- |
+### Gora Node Runner (GNR) Guide
 #### Prerequisites
 This manual is written for someone able to work with command-line (CLI) tools and Linux OS in general. Advanced customization may require editing of text files in JSON format. If you are not comfortable with the above, it is recommended that you enlist professional help or get up to speed using resources widely available online.
 For the Node Runner, 64-bit x86 hardware is currently officially supported. Mac, ARM, older 32-bit or any other non-amd86 hardware platforms are not. Most of these have no inherent incompatibilities with Gora software and will likely be supported in future releases. For the CLI tool, Mac platform is supported as well as Linux.
