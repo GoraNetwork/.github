@@ -7,8 +7,10 @@
 | -------- | ------- |
 | Devs start here 👉  | [Start here](https://www.gora.io/)    |
 | Technical docs |[Gora Technical Docs](https://docs.goracle.io/technical-documentation/)      |
+| Gora AlgoKit Template  | [Gora AlgoKit](https://github.com/GoraNetwork/algokit_default_template)     |
 | Gora example boilerplate consumer App  | [Gora Consumer Example](https://github.com/GoraNetwork/oracle_consumer_app)     |
 | Gora example boilerplate feed  | [Gora Feed Example](https://github.com/GoraNetwork/oracle_consumer_app)     |
+| Gora off-chain example  | [Gora Off-Chain Example](https://github.com/GoraNetwork/off-chain-starter)     |
 | Learn Gora Blog |[Gora Blog](https://www.gora.io/blog-post-categories/blog)      |
 | Read Gora Articles |[Gora Articles](https://goranetwork.medium.com/)      |
 
