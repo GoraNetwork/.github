@@ -5,7 +5,7 @@
 
 |   GoraNetwork is a decentralized oracle network powered by $GORA  |  <img src="https://uploads-ssl.webflow.com/646efe133ad1fe199a53f269/64e8a304831329ff7513f00b_poseNewWebsite01_2-p-800.png" width="170"> |
 | -------- | ------- |
-| Devs start here 👉  | [Start here](https://www.gora.io/)    |
+| Devs start here 👉  | [Start here](#👋-hey-developers)    |
 | Technical docs |[Gora Technical Docs](https://docs.goracle.io/technical-documentation/)      |
 | Gora AlgoKit Template  | [Gora AlgoKit](https://github.com/GoraNetwork/algokit_default_template)     |
 | Gora example boilerplate consumer App  | [Gora Consumer Example](https://github.com/GoraNetwork/oracle_consumer_app)     |
@@ -16,6 +16,7 @@
 
 
 
+### 👋 Hey developers, let's start here
 
 
 
