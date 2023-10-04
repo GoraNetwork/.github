@@ -7,7 +7,7 @@
 | -------- | ------- |
 | Devs start here 👉  | [Start here](https://www.gora.io/)    |
 | Technical docs |[Gora Technical Docs](https://docs.goracle.io/technical-documentation/)      |
-| Learn more about Gora |[Gora resources](https://www.gora.io/)      |
+| Learn more about Gora |[Gora resources](https://www.gora.io/blog-post-categories/blog)      |
 | Gora Boilerplate     | [Example Gora codebase](https://www.gora.io/)     |
 
 
