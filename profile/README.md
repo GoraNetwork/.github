@@ -1,5 +1,5 @@
 
-#### This README document is undergoing changes! (WIP)!
+#### This README document is undergoing changes! Please visit back soons (WIP)!
 |<img src="https://avatars.githubusercontent.com/u/96357480?s=400&u=f54a2fab0e5faaf6bccf57b993e0a28ca2102001&v=4" width="100">  |  GoraNetwork|
 | -------- | ------- |
 
