@@ -39,9 +39,9 @@ At no time should you run Gora software as root. If hacked, software executed as
 You should be able to run Gora software as a normal user with no additional setup. If you run into a permissions issue, do not use sudo to force your way through. If the error is docker-related, make sure you have added yourself to the docker user group. If adding priveleges to your normal user is undesirable, create a new user gora with useradd command, give it the necessary permissions and perform all operations as them.
 #### Running the node
 1) Install the required software
-Install Docker engine if you want to run your node locally, or AWS CLI if you prefer to run it on AWS. When using docker, ensure that you are able to use docker as a normal, non-root user; usually this requires adding yourself to the docker group, then logging out and back in.
-Download Gora CLI tool. To do it with wget run: https://download.goracle.io/latest-release/linux/goracle -O gora
-Make the downloaded binary executable by running chmod u+x ./gora
+    Install Docker engine if you want to run your node locally, or AWS CLI if you prefer to run it on AWS. When using docker, ensure that you are able to use docker as a normal, non-root user; usually this requires adding yourself to the docker group, then logging out and back in.
+    Download Gora CLI tool. To do it with wget run: https://download.goracle.io/latest-release/linux/goracle -O gora
+    Make the downloaded binary executable by running chmod u+x ./gora
 
 2) Initialize your installation
     Initialization of a new Gora node involves the following key steps:
