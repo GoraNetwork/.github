@@ -6,6 +6,7 @@
 | -------- | ------- | 
 | Devs start here 👉  | [Developers](#👋-hey-developers)    |
 | Node Runners starter 👉  | [Node Runners](#👋-hey-node-runner-lets-start-here)    |
+| Node Installtion Guide 👉  | [Node Devs](../profile/NODEINSTALLTION.md)    |
 | Gora AlgoKit Template 🔥 | [AlgoKit Template](https://github.com/GoraNetwork/algokit_default_template)     |
 | Gora example boilerplate consumer App 🦾 | [Consumer Example](https://github.com/GoraNetwork/oracle_consumer_app)     |
 | Gora example boilerplate feed 🦾 | [Feed Example](https://github.com/GoraNetwork/oracle_consumer_app)     |
