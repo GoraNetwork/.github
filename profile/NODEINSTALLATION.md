@@ -9,8 +9,9 @@ Since Goracle uses a private Amazon ECR repository to host docker images, AWS CL
 2) Install Goracle CLI tool:
    
 Goracle CLI tool is available as a self-contained executable for Windows or Linux:
-Goracle CLI tool for Linux
-Goracle CLI tool for Windows
+
+- [Goracle CLI tool for Linux](https://github.com/GoracleNetwork/goracle-nr/raw/latest-release/bin/goracle)
+- [Goracle CLI tool for Windows](https://github.com/GoracleNetwork/goracle-nr/raw/latest-release/bin/goracle.exe)
 
 3) Configure Goracle Algorand accounts:
    
