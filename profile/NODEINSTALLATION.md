@@ -4,7 +4,7 @@
 
 1) Install AWS CLI tools:
 
-Since Goracle uses a private Amazon ECR repository to host docker images, AWS CLI tools are necessary for local installs as well as cloud deployments. Refer to Amazon Getting started guide on how do download and install them.
+Since Goracle uses a private Amazon ECR repository to host docker images, AWS CLI tools are necessary for local installs as well as cloud deployments. Refer to Amazon [Getting started guide](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) on how do download and install them.
 
 2) Install Goracle CLI tool:
    
