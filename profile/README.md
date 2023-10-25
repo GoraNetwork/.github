@@ -35,7 +35,7 @@ the Algorand blockchain, and Python programming.
 
 ## Prerequisites and environment
 The general development environment includes:
-*   [Python 3.8](https://www.python.org/downloads/) or above installed and `python` or `python3` commands available on terminal! Check it with `python --version` or `python3 --version`! 
+*   [Python 3.10](https://www.python.org/downloads/) or above installed and `python` or `python3` commands available on terminal! Check it with `python --version` or `python3 --version`! 
 * [PIP package](https://pypi.org/project/pip/) installed and `pip` command available! Check it by `pip --version` or `pip3 --version`
 * If you want to use VirtualEnvs then install that via `pip install virtualenv` or `pip3 install virtualenv`
 
