@@ -21,7 +21,7 @@
 #### Quick resource for BuildABull:
 # [Gora developer quick start package](https://github.com/GoraNetwork/developer-quick-start)
 
-This repository is intended to help developers write their first blockchain
+The Quick Start repository is intended to help developers write their first blockchain
 application using Gora decentralized oracle. Here you will find:
 
  * Example application that can be used as a template
@@ -36,7 +36,7 @@ the Algorand blockchain, and Python programming.
 ## Prerequisites and environment
 The general development environment includes:
 *   [Python 3.8](https://www.python.org/downloads/) or above installed and `python` or `python3` commands available on terminal! Check it with `python --version` or `python3 --version`! 
-* PIP package installed and `pip` command available! Check it by `pip --version` or `pip3 --version`
+* [PIP package](https://pypi.org/project/pip/) installed and `pip` command available! Check it by `pip --version` or `pip3 --version`
 
 There are four essential pieces to form a Gora development environment:
 
