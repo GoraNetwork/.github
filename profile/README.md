@@ -37,6 +37,7 @@ the Algorand blockchain, and Python programming.
 The general development environment includes:
 *   [Python 3.8](https://www.python.org/downloads/) or above installed and `python` or `python3` commands available on terminal! Check it with `python --version` or `python3 --version`! 
 * [PIP package](https://pypi.org/project/pip/) installed and `pip` command available! Check it by `pip --version` or `pip3 --version`
+* If you want to use VirtualEnvs then install that via `pip install virtualenv` or `pip3 install virtualenv`
 
 There are four essential pieces to form a Gora development environment:
 
@@ -70,26 +71,30 @@ To check that an Algorand development node is up and running on your host, execu
 version information fields, including: `"genesis_id":"sandnet-v1"`.
 
 ### Gora software
+- Start by cloning the QuickStart repository by `git clone git@github.com:GoraNetwork/developer-quick-start.git`!
 
-Both Gora smart contracts and Gora node are managed with Gora CLI tool.
- [Download it here](https://download.goracle.io/latest-dev/linux/goracle "Gora CLI tool Linux binary"),
-then make it executable by running `chmod +x ./goracle`.  Running the CLI tool
-without arguments will list available commands. To get help on a command, run
+- Get Gora CLI tool : Both Gora smart contracts and Gora node are managed with Gora CLI tool.
+ [Download it here](https://download.goracle.io/latest-dev/linux/goracle "Gora CLI tool Linux binary")!
+
+- Make it executable by running `chmod +x ./goracle`.
+- Running the CLI tool: Running without arguments will list available commands.
+- To get help on a command, run
 `./goracle help <command name>`, for example: `./goracle help docker-start`.
 
 **Warning!** Do NOT follow normal Gora node setup process for live network
 operators when setting up a development node.
 
-To set up your development node, run: `GORACLE_CONFIG_FILE= ./goracle dev-init`.
+- Node setup: To set up your development node, run: `GORACLE_CONFIG_FILE= ./goracle dev-init`.
 This would clone Gora smart contracts from testnet to your local Algorand
 Sandbox network and create a config file for your development node. By default,
-this file is called `~/.goracle_dev`. Now you should be ready to start your
-development node as: `GORACLE_CONFIG_FILE=~/.goracle_dev ./goracle docker-start`.
-
+this file is called `~/.goracle_dev`.
+- Node start: Now you should be ready to start your development node as: `GORACLE_CONFIG_FILE=~/.goracle_dev ./goracle docker-start`.
 This will form a single-node Gora network for local end-to-end testing of your
 applications. This node will pick up your local Gora requests and process them
 like a production network would, logging various debugging information to
 standard output.
+
+Done! Now you are ready to run the example APP!
 
 **Warning!** do not stop the node. You must have your development node up and
 running to process requests from the example app or from any Gora-enabled apps
