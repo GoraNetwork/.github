@@ -71,6 +71,7 @@ To check that an Algorand development node is up and running on your host, execu
 version information fields, including: `"genesis_id":"sandnet-v1"`.
 
 ### Gora software
+- First update your Python packages if they are already installed! On nix systems it is recommended to `sudo apt update && sudo apt upgrade -y` first!
 - Start by cloning the QuickStart repository by `git clone git@github.com:GoraNetwork/developer-quick-start.git`!
 
 - Get Gora CLI tool : Both Gora smart contracts and Gora node are managed with Gora CLI tool.
