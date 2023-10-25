@@ -21,8 +21,8 @@
 #### Quick resource for BuildABull:
 # [Gora developer quick start package](https://github.com/GoraNetwork/developer-quick-start)
 
-The Quick Start repository is intended to help developers write their first blockchain
-application using Gora decentralized oracle. Here you will find:
+The [Quick Start repository](https://github.com/GoraNetwork/developer-quick-start) is intended to help developers write their first blockchain
+application using Gora decentralized oracle. This guide provides:
 
  * Example application that can be used as a template
  * Step-by-step instructions on how to deploy and test it
