@@ -34,32 +34,35 @@ their own risk. The reader must be comfortable with using command-line tools,
 the Algorand blockchain, and Python programming.
 
 ## Prerequisites and environment
+The general development environment includes:
+*   [Python 3.8](https://www.python.org/downloads/) or above installed and `python` or `python3` commands available on terminal! Check it with `python --version` or `python3 --version`! 
+* PIP package installed and `pip` command available! Check it by `pip --version` or `pip3 --version`
 
 There are four essential pieces to form a Gora development environment:
 
- * An Algorand node, providing a locally simulated Algorand network
- * Algorand Python toolset for smart contracts and external blockchain interaction
+ * An Algorand node, providing a locally simulated Algorand network (sandbox devnet)
+ * Algorand Python toolset for smart contracts and external blockchain interaction (Beaker framework)
  * Gora smart contracts deployed to this network
- * A Gora node instance, running and connected to the above
+ * A Gora node runner instance, running and connected to the above
 
 ### Algorand software
 
 The following Algorand software must be installed and functioning:
 
  * [Algorand Sandbox](https://github.com/algorand/sandbox "Algorand Sandbox GitHub page").
- * [Algorand Beaker framework](https://github.com/algorand-devrel/beaker "Algorand Beaker GitHub page")
+ * [Algorand Beaker framework](https://github.com/algorand-devrel/beaker "Algorand Beaker GitHub page"): Install by `pip install beaker-pyteal` or `pip3 install beaker-pyteal`
 
-Refer to the documentation at the above links for download and installation
+Refer to the documentation at the above links for download and detailed installation
 instructions. Alternatively, you may use Algokit, Algorand's simplified
 environment setup toolkit that will handle that for you. Algorand Sandbox must
 run a local Algorand network which is the default, but make sure not to start it
-on testnet or devnet Algorand networks unintentionally.
+on TESTNET or devnet Algorand networks unintentionally.
 
 **Warning!*** By default, the Algorand Sandbox runs its local network,
 automatically confirming new transactions on time period basis. This is
 currently the recommended mode for Gora development. The "dev" mode of Algorand
 Sandbox which confirms every transaction instantly and places it in its own
-round is currently not supported. It is incompatible with security mechanisms
+round is currently not supported. It is incompatible with the security mechanisms
 of production Gora smart contracts.
 
 To check that an Algorand development node is up and running on your host, execute:
@@ -69,7 +72,7 @@ version information fields, including: `"genesis_id":"sandnet-v1"`.
 ### Gora software
 
 Both Gora smart contracts and Gora node are managed with Gora CLI tool.
-Download it [here](https://download.goracle.io/latest-dev/linux/goracle "Gora CLI tool Linux binary"),
+ [Download it here](https://download.goracle.io/latest-dev/linux/goracle "Gora CLI tool Linux binary"),
 then make it executable by running `chmod +x ./goracle`.  Running the CLI tool
 without arguments will list available commands. To get help on a command, run
 `./goracle help <command name>`, for example: `./goracle help docker-start`.
