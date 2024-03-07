@@ -5,6 +5,7 @@
 | <img src="https://avatars.githubusercontent.com/u/96357480?s=400&u=f54a2fab0e5faaf6bccf57b993e0a28ca2102001&v=4" width="100"> <br>[GoraNetwork](https://goa.io) is a decentralized blockchain oracle network powered by [$GORA](https://www.mexc.com/)  | <img src="https://uploads-ssl.webflow.com/646efe133ad1fe199a53f269/64e8a304831329ff7513f00b_poseNewWebsite01_2-p-800.png" width="170">|  
 | -------- | ------- | 
 | Devs start here 👉  | [Developers](#-hey-developers)    |
+| Detailed Documentations 👉 | [Documentation](https://github.com/GoraNetwork/.github/wiki/Gora-Decentralized-Oracle-Documentation) 
 | Node Runners starter 👉  | [Node Runners](#-hey-node-runner-lets-start-here)    |
 | Node Installtion Guide 👉  | [Node Devs](../profile/NODEINSTALLTION.md)    |
 | Gora AlgoKit Template 🔥 | [AlgoKit Template](https://github.com/GoraNetwork/algokit_default_template)     |
