@@ -1,22 +1,11 @@
-.. raw:: html
-
-    <style type="text/css">
-      #user-content-gora-avatar { float: right; }
-    </style>
-
 ##############################################################################
 Programmable Decentralized Oracle for EVM-compatible Blockchains and Algorand
 ##############################################################################
 
-..
-  .. image:: gora_robot.png
-     :width: 100
-     :name: gora-logo
-     :alt: Gora logo
-
 .. image:: https://camo.githubusercontent.com/595f4cce84e0b4303a16685ef71b5a44cca005662dd59e4c9f400591e8327fde/68747470733a2f2f75706c6f6164732d73736c2e776562666c6f772e636f6d2f3634366566653133336164316665313939613533663236392f3634653861333034383331333239666637353133663030625f706f73654e65775765627369746530315f322d702d3830302e706e67
    :height: 200
    :name: gora-avatar
+   :align: right
    :alt: Gora robot avatar
 
 Gora enables blockchain applications to interact with the outside world. Getting
