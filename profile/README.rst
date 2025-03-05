@@ -1,3 +1,9 @@
+.. raw:: html
+
+    <style type="text/css">
+      #user-content-gora-avatar { float: right; }
+    </style>
+
 ##############################################################################
 Programmable Decentralized Oracle for EVM-compatible Blockchains and Algorand
 ##############################################################################
